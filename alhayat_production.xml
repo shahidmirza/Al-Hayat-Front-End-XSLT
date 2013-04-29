@@ -4586,10 +4586,10 @@ for (var j = 1; j &lt; p.length; j++) { url += "&amp;" + p[j]; }}
  
  <xsl:choose>
   <xsl:when test="PARAM[(@name='daterange_ddm') and (@value='')]">
-   <option value="all" selected="selected">لكل</option>
+   <option value="all" selected="selected">الكل</option>
   </xsl:when>
   <xsl:otherwise>
-    <option value="all">لكل</option>
+    <option value="all">الكل</option>
   </xsl:otherwise>
  </xsl:choose>
 
