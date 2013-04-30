@@ -227,7 +227,7 @@
 <xsl:variable name="uar_provider"> GSA User-Added Results </xsl:variable>
 
 <!-- *** analytics information *** -->
-<xsl:variable name="analytics_account"></xsl:variable>
+<xsl:variable name="analytics_account">UA-8777468-9</xsl:variable>
 
 <!-- *** ASR enabling *** -->
 <xsl:variable name="show_asr">1</xsl:variable>
@@ -790,6 +790,32 @@
    between the xsl:text tags with html escaped html code *** -->
   <xsl:text disable-output-escaping="yes"> &lt;!-- Please enter html code below. --&gt;
 
+&lt;script type="text/javascript"&gt;
+       var _gaq = _gaq || [];
+       _gaq.push(['_setAccount', 'UA-8777468-9']);
+       _gaq.push(['_trackPageview']);
+ 
+       (function () {
+           var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+           ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+           var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+       })();
+    &lt;/script&gt;
+ 
+ 
+&lt;!-- Effective measurements: --&gt;
+ 
+&lt;script type="text/javascript"&gt;
+        (function () {
+            var em = document.createElement('script'); em.type = 'text/javascript'; em.async = true;
+            em.src = ('https:' == document.location.protocol ? 'https://me-ssl' : 'http://me-cdn') + '.effectivemeasure.net/em.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(em, s);
+        })();
+    &lt;/script&gt;
+&lt;noscript&gt;
+        &lt;img src="//me.effectivemeasure.net/em_image" alt="" style="position:absolute; left:-5px;" /&gt;
+&lt;/noscript&gt;
+
 &lt;div id="centre_ie"&gt;
 
 &lt;div id="container"&gt;
@@ -813,40 +839,40 @@
 	&lt;div class="main_menu"&gt;
 	&lt;a href="http://alhayat.com/Home" class="home_menu Preserve selected" id="homemenuId"&gt;&lt;/a&gt;
 
-	&lt;div class="local_menu " id="LocalSubB"&gt;
+		&lt;div class="local_menu " id="LocalSubB"&gt;
 
-	&lt;a href="http://alhayat.com/Category/LocalKsa" class="LocA"&gt;&lt;/a&gt;
+			&lt;a href="http://alhayat.com/Category/LocalKsa" class="LocA"&gt;&lt;/a&gt;
 
-	&lt;div id="SubMenu3" class="SubMenu SubMenuKL" style="height: 0px; overflow: hidden;"&gt;
-	&lt;div class="SubCommon" id="LocalSubmenu"&gt;
+				&lt;div id="SubMenu3" class="SubMenu SubMenuKL" style="height: 0px; overflow: hidden;"&gt;
+					&lt;div class="SubCommon" id="LocalSubmenu"&gt;
                         &lt;a href="http://alhayat.com/Category/Localksa/37" class="SubOptionMenu  "&gt;الرياض &lt;/a&gt;
                         &lt;a href="http://alhayat.com/Category/Localksa/121" class="SubOptionMenu  "&gt;مكة المكرمة &lt;/a&gt;
                         &lt;a href="http://alhayat.com/Category/Localksa/122" class="SubOptionMenu  "&gt;الشرقية &lt;/a&gt;
                         &lt;a href="http://alhayat.com/Category/Localksa/123" class="SubOptionMenu  "&gt;المناطق الأخرى &lt;/a&gt;
                         &lt;a href="http://alhayat.com/Category/Localksa/124" class="SubOptionMenu  "&gt;حوادث &lt;/a&gt;
                         &lt;a href="http://alhayat.com/Category/Localksa/164" class="SubOptionMenu  NoBorderLeft"&gt;اليوم الوطني &lt;/a&gt;
-	&lt;/div&gt;
-	&lt;/div&gt;
-	&lt;/div&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+		&lt;/div&gt;
 
 	&lt;div href="http://alhayat.com/Category/Politics" class="politics_menu KsaPM " id="PoliticsMenuheader"&gt;
 	&lt;a href="http://alhayat.com/Category/Politics" class="PolAnch"&gt;&lt;/a&gt;
 
-	&lt;div id="SubMenu1" class="SubMenu subPoKsa" style="height: 0px; overflow: hidden;"&gt;
-	&lt;div class="SubCommon" id="PoliticsSubMenu"&gt;
-	&lt;a href="http://alhayat.com/Category/Politics/112" class="SubOptionMenu  "&gt;عربية &lt;/a&gt;
-	&lt;a href="http://alhayat.com/Category/Politics/41" class="SubOptionMenu  "&gt;دولية &lt;/a&gt;
-	&lt;a href="http://alhayat.com/Category/Politics/35" class="SubOptionMenu  "&gt;الخليج &lt;/a&gt;
-	&lt;a href="http://alhayat.com/Category/Politics/114" class="SubOptionMenu  "&gt;اليمن &lt;/a&gt;
-	&lt;a href="http://alhayat.com/Category/Politics/113" class="SubOptionMenu  "&gt;العراق &lt;/a&gt;
-	&lt;a href="http://alhayat.com/Category/Politics/115" class="SubOptionMenu  "&gt;سورية &lt;/a&gt;
-	&lt;a href="http://alhayat.com/Category/Politics/117" class="SubOptionMenu  "&gt;لبنان &lt;/a&gt;
-	&lt;a href="http://alhayat.com/Category/Politics/116" class="SubOptionMenu  "&gt;فلسطين &lt;/a&gt;
-	&lt;a href="http://alhayat.com/Category/Politics/118" class="SubOptionMenu  "&gt;الاردن &lt;/a&gt;
-	&lt;a href="http://alhayat.com/Category/Politics/40" class="SubOptionMenu  "&gt;مصر &lt;/a&gt;
-	&lt;a href="http://alhayat.com/Category/Politics/119" class="SubOptionMenu  "&gt;السودان &lt;/a&gt;
-	&lt;a href="http://alhayat.com/Category/Politics/120" class="SubOptionMenu  NoBorderLeft"&gt;المغرب العربي &lt;/a&gt;
-	&lt;/div&gt;
+		&lt;div id="SubMenu1" class="SubMenu subPoKsa" style="height: 0px; overflow: hidden;"&gt;
+			&lt;div class="SubCommon" id="PoliticsSubMenu"&gt;
+			&lt;a href="http://alhayat.com/Category/Politics/112" class="SubOptionMenu  "&gt;عربية &lt;/a&gt;
+			&lt;a href="http://alhayat.com/Category/Politics/41" class="SubOptionMenu  "&gt;دولية &lt;/a&gt;
+			&lt;a href="http://alhayat.com/Category/Politics/35" class="SubOptionMenu  "&gt;الخليج &lt;/a&gt;
+			&lt;a href="http://alhayat.com/Category/Politics/114" class="SubOptionMenu  "&gt;اليمن &lt;/a&gt;
+			&lt;a href="http://alhayat.com/Category/Politics/113" class="SubOptionMenu  "&gt;العراق &lt;/a&gt;
+			&lt;a href="http://alhayat.com/Category/Politics/115" class="SubOptionMenu  "&gt;سورية &lt;/a&gt;
+			&lt;a href="http://alhayat.com/Category/Politics/117" class="SubOptionMenu  "&gt;لبنان &lt;/a&gt;
+			&lt;a href="http://alhayat.com/Category/Politics/116" class="SubOptionMenu  "&gt;فلسطين &lt;/a&gt;
+			&lt;a href="http://alhayat.com/Category/Politics/118" class="SubOptionMenu  "&gt;الاردن &lt;/a&gt;
+			&lt;a href="http://alhayat.com/Category/Politics/40" class="SubOptionMenu  "&gt;مصر &lt;/a&gt;
+			&lt;a href="http://alhayat.com/Category/Politics/119" class="SubOptionMenu  "&gt;السودان &lt;/a&gt;
+			&lt;a href="http://alhayat.com/Category/Politics/120" class="SubOptionMenu  NoBorderLeft"&gt;المغرب العربي &lt;/a&gt;
+		&lt;/div&gt;
 	&lt;/div&gt;
 &lt;/div&gt;
 
@@ -854,14 +880,14 @@
 &lt;a href="http://alhayat.com/Category/Economic" class="EcoA"&gt;&lt;/a&gt;
 
 	&lt;div id="Econ" class="SubMenu" style="height: 0px; overflow: hidden;"&gt;
-	&lt;div class="SubCommon"&gt;
-	&lt;a href="http://alhayat.com/Category/Economic/106" class="SubOptionMenu  "&gt;محلي &lt;/a&gt;
-	&lt;a href="http://alhayat.com/Category/Economic/107" class="SubOptionMenu  "&gt;عربي &lt;/a&gt;
-	&lt;a href="http://alhayat.com/Category/Economic/108" class="SubOptionMenu  "&gt;دولي &lt;/a&gt;
+		&lt;div class="SubCommon"&gt;
+		&lt;a href="http://alhayat.com/Category/Economic/106" class="SubOptionMenu  "&gt;محلي &lt;/a&gt;
+		&lt;a href="http://alhayat.com/Category/Economic/107" class="SubOptionMenu  "&gt;عربي &lt;/a&gt;
+		&lt;a href="http://alhayat.com/Category/Economic/108" class="SubOptionMenu  "&gt;دولي &lt;/a&gt;
         &lt;a href="http://alhayat.com/Category/Economic/109" class="SubOptionMenu  "&gt;أسواق المال &lt;/a&gt;
         &lt;a href="http://alhayat.com/Category/Economic/110" class="SubOptionMenu  "&gt;عقارات &lt;/a&gt;
         &lt;a href="http://alhayat.com/Category/Economic/111" class="SubOptionMenu  NoBorderLeft"&gt;خدمات &lt;/a&gt;
-	&lt;/div&gt;
+		&lt;/div&gt;
 	&lt;/div&gt;
 &lt;/div&gt;
 
@@ -869,14 +895,14 @@
 &lt;a href="http://alhayat.com/Category/Opinion" class="OpA"&gt;&lt;/a&gt;
   
 	&lt;div id="OpinK" class="SubMenu" style="height: 0px; overflow: hidden;"&gt;
-	&lt;div class="SubCommon"&gt;
-	&lt;a href="http://alhayat.com/Category/Opinion/100" class="SubOptionMenu  "&gt;سياسي &lt;/a&gt;
+		&lt;div class="SubCommon"&gt;
+		&lt;a href="http://alhayat.com/Category/Opinion/100" class="SubOptionMenu  "&gt;سياسي &lt;/a&gt;
         &lt;a href="http://alhayat.com/Category/Opinion/101" class="SubOptionMenu  "&gt;محلي &lt;/a&gt;
         &lt;a href="http://alhayat.com/Category/Opinion/102" class="SubOptionMenu  "&gt;اقتصادي &lt;/a&gt;
         &lt;a href="http://alhayat.com/Category/Opinion/103" class="SubOptionMenu  "&gt;رياضي &lt;/a&gt;
         &lt;a href="http://alhayat.com/Category/Opinion/104" class="SubOptionMenu  "&gt;ثقافي &lt;/a&gt;
         &lt;a href="http://alhayat.com/Category/Opinion/105" class="SubOptionMenu  NoBorderLeft"&gt;ضيوف وآراء &lt;/a&gt;
-	&lt;/div&gt;
+		&lt;/div&gt;
 	&lt;/div&gt;
 &lt;/div&gt;
 
@@ -884,7 +910,7 @@
 &lt;a href="http://alhayat.com/Category/Issues" class="IssA"&gt;&lt;/a&gt;
   
 	&lt;div id="IssK" class="SubMenu" style="height: 0px; overflow: hidden;"&gt;
-	&lt;div class="SubCommon"&gt;
+		&lt;div class="SubCommon"&gt;
         &lt;a href="http://alhayat.com/Category/Issues/96" class="SubOptionMenu  "&gt;تحقيق &lt;/a&gt;
         &lt;a href="http://alhayat.com/Category/Issues/97" class="SubOptionMenu  "&gt;قضية &lt;/a&gt;
         &lt;a href="http://alhayat.com/Category/Issues/98" class="SubOptionMenu  "&gt;مقابلة &lt;/a&gt;
@@ -902,7 +928,7 @@
 &lt;a href="http://alhayat.com/Category/Culture" class="CulA"&gt;&lt;/a&gt;  
   
 	&lt;div id="CulK" class="SubMenu" style="height: 0px; overflow: hidden;"&gt;
-	&lt;div class="SubCommon"&gt;
+		&lt;div class="SubCommon"&gt;
         &lt;a href="http://alhayat.com/Category/Culture/154" class="SubOptionMenu  NoBorderLeft"&gt;واحة &lt;/a&gt;
         &lt;a href="http://alhayat.com/Category/Culture/92" class="SubOptionMenu  "&gt;آداب وفنون &lt;/a&gt;
         &lt;a href="http://alhayat.com/Category/Culture/93" class="SubOptionMenu  "&gt;مراجعة كتب &lt;/a&gt;
@@ -916,7 +942,7 @@
 &lt;a href="http://alhayat.com/Category/Varieties" class="NasA"&gt;&lt;/a&gt;
   
 	&lt;div id="Var" class="SubMenu" style="height: 0px; overflow: hidden;"&gt;
-	&lt;div class="SubCommon"&gt;
+		&lt;div class="SubCommon"&gt;
         &lt;a href="http://alhayat.com/Category/Varieties/85" class="SubOptionMenu  NoBorderLeft"&gt;منوعات &lt;/a&gt;
         &lt;a href="http://alhayat.com/Category/Varieties/86" class="SubOptionMenu  "&gt;تلفزيون &lt;/a&gt;
         &lt;a href="http://alhayat.com/Category/Varieties/87" class="SubOptionMenu  "&gt;مشاهير &lt;/a&gt;
@@ -930,7 +956,7 @@
 &lt;a href="http://alhayat.com/Category/Technology" class="TechA"&gt;&lt;/a&gt;
 
 	&lt;div id="SubtechI" class="SubMenu" style="height: 0px; overflow: hidden;"&gt;
-	&lt;div class="SubCommon" id="LocalSubmenu"&gt;
+		&lt;div class="SubCommon" id="LocalSubmenu"&gt;
         &lt;a href="http://alhayat.com/Category/Technology/84" class="SubOptionMenu  NoBorderLeft"&gt;بيئة وطبيعة &lt;/a&gt;
         &lt;a href="http://alhayat.com/Category/Technology/83" class="SubOptionMenu  "&gt;علوم &lt;/a&gt;
         &lt;a href="http://alhayat.com/Category/Technology/82" class="SubOptionMenu  "&gt;معلوماتية واتصالات &lt;/a&gt;
@@ -943,7 +969,7 @@
 &lt;a href="http://alhayat.com/Category/Sports" class="SpoA"&gt;&lt;/a&gt;
 
 	&lt;div id="SporKs" class="SubMenu" style="height: 0px; overflow: hidden;"&gt;
-	&lt;div class="SubCommon"&gt;
+		&lt;div class="SubCommon"&gt;
         &lt;a href="http://alhayat.com/Category/Sports/78" class="SubOptionMenu  NoBorderLeft"&gt;رأي &lt;/a&gt;
         &lt;a href="http://alhayat.com/Category/Sports/77" class="SubOptionMenu  "&gt;دولية &lt;/a&gt;
         &lt;a href="http://alhayat.com/Category/Sports/76" class="SubOptionMenu  "&gt;عربية &lt;/a&gt;
@@ -957,7 +983,7 @@
 &lt;div class="FlA"&gt;&lt;/div&gt;
   
 	&lt;div id="Fl" class="SubMenu SubMenuFK " style="height: 0px; overflow: hidden;"&gt;
-	&lt;div class="SubCommon"&gt;
+		&lt;div class="SubCommon"&gt;
         &lt;a href="http://alhayat.com/Category/BreackNews/137" class="SubOptionMenu  NoBorderLeft"&gt;رياضة  &lt;/a&gt;
         &lt;a href="http://alhayat.com/Category/BreackNews/74" class="SubOptionMenu  "&gt;تيارات &lt;/a&gt;
         &lt;a href="http://alhayat.com/Category/BreackNews/73" class="SubOptionMenu  "&gt;تراث &lt;/a&gt;
@@ -966,7 +992,7 @@
         &lt;a href="http://alhayat.com/Category/BreackNews/70" class="SubOptionMenu  "&gt;صحافة العالم &lt;/a&gt;
         &lt;a href="http://alhayat.com/Category/BreackNews/46" class="SubOptionMenu  "&gt;آفاق &lt;/a&gt;
         &lt;a href="http://alhayat.com/Category/BreackNews/69" class="SubOptionMenu  "&gt;شباب &lt;/a&gt;
-	&lt;/div&gt;
+		&lt;/div&gt;
 	&lt;/div&gt;
 &lt;/div&gt;
 
@@ -974,7 +1000,7 @@
 &lt;div class="SpeA"&gt;&lt;/div&gt;
   
 	&lt;div id="Spe" class="SubMenu" style="height: 0px; overflow: hidden;"&gt;
-	&lt;div class="SubCommon"&gt;
+		&lt;div class="SubCommon"&gt;
         &lt;a href="http://alhayat.com/Category/Specialize/149" class="SubOptionMenu  NoBorderLeft"&gt;مناسبات &lt;/a&gt;
         &lt;a href="http://alhayat.com/Category/Specialize/66" class="SubOptionMenu  "&gt;شعر &lt;/a&gt;
         &lt;a href="http://alhayat.com/Category/Specialize/64" class="SubOptionMenu  "&gt;قانون &lt;/a&gt;
@@ -998,32 +1024,32 @@
 &lt;div id="headerFilter"&gt;
 	&lt;div class="SectionOptions"&gt;
 	&lt;form id="filterFormCat" name="filterFormCat"&gt;
-	&lt;div class="filterNewest"&gt;
-	&lt;select onchange="FilterTrigered(0 ,0)" name="SortCat"&gt;
-	&lt;option selected="" value="4"&gt;الأحدث&lt;/option&gt;
-	&lt;option value="2"&gt;الأكثر مشاهدة&lt;/option&gt;
-	&lt;option value="0"&gt;الأكثر تعليقاً &lt;/option&gt;
-	&lt;option value="1"&gt;الأكثر مشاركة &lt;/option&gt;
-	&lt;/select&gt;
-	&lt;/div&gt;
+		&lt;div class="filterNewest"&gt;
+		&lt;select onchange="FilterTrigered(0 ,0)" name="SortCat"&gt;
+		&lt;option selected="" value="4"&gt;الأحدث&lt;/option&gt;
+		&lt;option value="2"&gt;الأكثر مشاهدة&lt;/option&gt;
+		&lt;option value="0"&gt;الأكثر تعليقاً &lt;/option&gt;
+		&lt;option value="1"&gt;الأكثر مشاركة &lt;/option&gt;
+		&lt;/select&gt;
+		&lt;/div&gt;
 
-	&lt;div class="filterCat"&gt;
-	&lt;select&gt;
-	&lt;option value="0"&gt;جميع الفئات &lt;/option&gt;
-	&lt;/select&gt;
-	&lt;/div&gt;
+		&lt;div class="filterCat"&gt;
+		&lt;select&gt;
+		&lt;option value="0"&gt;جميع الفئات &lt;/option&gt;
+		&lt;/select&gt;
+		&lt;/div&gt;
 
-	&lt;input type="hidden" value="0" name="SubjectsCat"&gt;
+		&lt;input type="hidden" value="0" name="SubjectsCat"&gt;
 
-	&lt;div class="filterPersonality"&gt;
-	&lt;select name="AuthorFilter"&gt;
-	&lt;option value="0"&gt;جميع الكتاب &lt;/option&gt;
+		&lt;div class="filterPersonality"&gt;
+		&lt;select name="AuthorFilter"&gt;
+		&lt;option value="0"&gt;جميع الكتاب &lt;/option&gt;
         &lt;/select&gt;
-	&lt;/div&gt;
+		&lt;/div&gt;
 
-	&lt;div class="filterSubjects"&gt;
-	&lt;select onchange="FilterTrigered(0 ,0)" name="CountriesCat"&gt;
-	&lt;option value="0"&gt;جميع البلدان &lt;/option&gt;
+		&lt;div class="filterSubjects"&gt;
+		&lt;select onchange="FilterTrigered(0 ,0)" name="CountriesCat"&gt;
+		&lt;option value="0"&gt;جميع البلدان &lt;/option&gt;
         &lt;option value="78"&gt;	الإمارات العربية المتحدة&lt;/option&gt;
         &lt;option value="102"&gt;أستراليا&lt;/option&gt;
         &lt;option value="98"&gt;أفريقيا&lt;/option&gt;
@@ -1052,23 +1078,23 @@
         &lt;/select&gt;
         &lt;/div&gt;
 
-	&lt;div class="filterDate"&gt;
-	&lt;div class="calendar_button"&gt;&lt;/div&gt;
-	&lt;input type="text" value="من" name="FromDateCat" id="FromDateCat" class="hasDatepicker"&gt;
-	&lt;/div&gt;
+		&lt;div class="filterDate"&gt;
+			&lt;div class="calendar_button"&gt;&lt;/div&gt;
+		&lt;input type="text" value="من" name="FromDateCat" id="FromDateCat" class="hasDatepicker"&gt;
+		&lt;/div&gt;
 
-	&lt;div class="filterDate"&gt;
-	&lt;div class="calendar_button"&gt;&lt;/div&gt;
-	&lt;input type="text" value="إلى" name="ToDateCat" id="ToDateCat" class="hasDatepicker"&gt;
-	&lt;/div&gt;
+		&lt;div class="filterDate"&gt;
+			&lt;div class="calendar_button"&gt;&lt;/div&gt;
+		&lt;input type="text" value="إلى" name="ToDateCat" id="ToDateCat" class="hasDatepicker"&gt;
+		&lt;/div&gt;
 
-	&lt;div class="filterKeyWord"&gt;
-	&lt;input type="text" onblur="if(this.value==''){this.value='الكلمة الرئيسية';}" onclick="if(this.value=='الكلمة الرئيسية'){this.value='';}" value="الكلمة الرئيسية" name="CriteriaCat" id="CriteriaCat"&gt;
-	&lt;div onclick="FilterTrigered(0 ,0)" class="FilterStart_button"&gt;&lt;/div&gt;
-	&lt;/div&gt;
+		&lt;div class="filterKeyWord"&gt;
+		&lt;input type="text" onblur="if(this.value==''){this.value='الكلمة الرئيسية';}" onclick="if(this.value=='الكلمة الرئيسية'){this.value='';}" value="الكلمة الرئيسية" name="CriteriaCat" id="CriteriaCat"&gt;
+			&lt;div onclick="FilterTrigered(0 ,0)" class="FilterStart_button"&gt;&lt;/div&gt;
+		&lt;/div&gt;
 	&lt;/form&gt;
 
-	&lt;div id="LoaderTypeFilter"&gt;&lt;/div&gt;
+		&lt;div id="LoaderTypeFilter"&gt;&lt;/div&gt;
 	&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -1090,7 +1116,7 @@
 &lt;!-- START OF FOOTER --&gt;
 &lt;div id="footer"&gt;
 	&lt;div class="footer_content"&gt;
-	&lt;div class="FooterMenuTop"&gt;
+		&lt;div class="FooterMenuTop"&gt;
             &lt;div class="TopFooterM"&gt;
             &lt;a href="http://alhayat.com/AboutWebsite" class="AboutWebsiteFooter"&gt;&lt;/a&gt;
             &lt;a style="cursor:default" class="DarAlHayatFooter"&gt;&lt;/a&gt;
@@ -1098,8 +1124,8 @@
             &lt;a href="http://alhayat.com/ContactUs" class="ContactUsFooter"&gt;&lt;/a&gt;
             &lt;a href="http://alhayat.com/Advertise" class="AdvertiseFooter"&gt;&lt;/a&gt;
             &lt;/div&gt;
-	&lt;a target="_blank" href="http://www.stoneburn.com" id="ByKoein"&gt;Designed by Stoneburn&lt;/a&gt;
-	&lt;/div&gt;
+		&lt;a target="_blank" href="http://www.stoneburn.com" id="ByKoein"&gt;Designed by Stoneburn&lt;/a&gt;
+		&lt;/div&gt;
 
 	&lt;div class="FooterMenuBottom"&gt;
 
@@ -1129,7 +1155,7 @@
 &lt;script language="javascript"&gt;
 
 $(document).ready(function () {
-	
+							
 function OpenSub(obj) {
     var thisSub = $(obj).find('.SubMenu');
     $('.main_menu .SubMenu').each(function () {
@@ -1138,7 +1164,7 @@ function OpenSub(obj) {
         else {
 
             $(this).stop().animate({ 'height': '30px' }, 300, "easeOutSine");
-	}
+		}
     });
 }
 
@@ -1172,7 +1198,7 @@ function callLiveNews() {
                 else {
                     $('#AlertNews').hide();
                 }
-	}
+			}
 
         });
     }
@@ -1226,15 +1252,15 @@ setInterval(function () {
 	  function removeDateRangeFromASQ(){
 	      var as_q = $('.as_q');
 	       if(as_q.val().indexOf("inmeta:dateGre:daterange")!=-1){
-	  as_q.val(trim(as_q.val().substring(0,as_q.val().indexOf("inmeta:dateGre:daterange")-1)));
+		  as_q.val(trim(as_q.val().substring(0,as_q.val().indexOf("inmeta:dateGre:daterange")-1)));
 	       }
 	    }
 	    
 	    function trim(s) {
-	s = s.replace(/(^\s*)|(\s*$)/gi,"");
-	s = s.replace(/[ ]{2,}/gi," ");
-	s = s.replace(/\n /,"\n");
-	return s;
+		s = s.replace(/(^\s*)|(\s*$)/gi,"");
+		s = s.replace(/[ ]{2,}/gi," ");
+		s = s.replace(/\n /,"\n");
+		return s;
 	    }
 	    
 	    function getDateRange(period){
@@ -1243,24 +1269,24 @@ setInterval(function () {
 	      var d = new Date();
 	      
 	      switch(period){
-	case "all":
-	  return "";
-	  break;
-	case "1d":
-	  d.setDate(d.getDate()-1);
-	  break;
-	case "1w":
-	  d.setDate(d.getDate()-7);
-	  break;
-	case "1m":
-	  d.setMonth(d.getMonth()-1);
-	  break;
-	case "2m":
-	  d.setMonth(d.getMonth()-2);
-	  break;
-	case "12m":
-	  d.setMonth(d.getMonth()-12);
-	  break;
+		case "all":
+			  return "";
+			  break;
+		case "1d":
+			  d.setDate(d.getDate()-1);
+			  break;
+		case "1w":
+			  d.setDate(d.getDate()-7);
+			  break;
+		case "1m":
+			  d.setMonth(d.getMonth()-1);
+			  break;
+		case "2m":
+			  d.setMonth(d.getMonth()-2);
+			  break;
+		case "12m":
+			  d.setMonth(d.getMonth()-12);
+			  break;
 	      }
 	      
 	      var date_date = d.getDate();
@@ -1279,9 +1305,9 @@ setInterval(function () {
 	      removeDateRangeFromASQ();
 	    
 	      if($('.as_q').val()==""){
-	$('.as_q').val(getDateRange($(this).val()));
+		$('.as_q').val(getDateRange($(this).val()));
 	      }else{
-	$('.as_q').val($('.as_q').val()+getDateRange($(this).val()));
+		$('.as_q').val($('.as_q').val()+getDateRange($(this).val()));
 	      }
 	      
 	    });
@@ -3312,312 +3338,312 @@ for (var j = 1; j &lt; p.length; j++) { url += "&amp;" + p[j]; }}
 
                         <!--====IMPORTANT: This is not a Message. This is a placeholder.======-->
                         
-	<xsl:choose>
-	 <xsl:when test="PARAM[(@name='lr') and (@value='lang_ar')]">
-	 <option value="lang_ar"
-	 selected="selected">Arabic</option>
-	 </xsl:when>
-	 <xsl:otherwise>
-	 <option value="lang_ar">Arabic</option>
-	 </xsl:otherwise>
-	</xsl:choose>
+			<xsl:choose>
+			 <xsl:when test="PARAM[(@name='lr') and (@value='lang_ar')]">
+			 <option value="lang_ar"
+			 selected="selected">Arabic</option>
+			 </xsl:when>
+			 <xsl:otherwise>
+			 <option value="lang_ar">Arabic</option>
+			 </xsl:otherwise>
+			</xsl:choose>
 
-	
-	<xsl:choose>
-	 <xsl:when test="PARAM[(@name='lr') and (@value='lang_zh-CN')]">
-	 <option value="lang_zh-CN"
-	 selected="selected">Chinese (Simplified)</option>
-	 </xsl:when>
-	 <xsl:otherwise>
-	 <option value="lang_zh-CN">Chinese (Simplified)</option>
-	 </xsl:otherwise>
-	</xsl:choose>
+			
+			<xsl:choose>
+			 <xsl:when test="PARAM[(@name='lr') and (@value='lang_zh-CN')]">
+			 <option value="lang_zh-CN"
+			 selected="selected">Chinese (Simplified)</option>
+			 </xsl:when>
+			 <xsl:otherwise>
+			 <option value="lang_zh-CN">Chinese (Simplified)</option>
+			 </xsl:otherwise>
+			</xsl:choose>
 
-	
-	<xsl:choose>
-	 <xsl:when test="PARAM[(@name='lr') and (@value='lang_zh-TW')]">
-	 <option value="lang_zh-TW"
-	 selected="selected">Chinese (Traditional)</option>
-	 </xsl:when>
-	 <xsl:otherwise>
-	 <option value="lang_zh-TW">Chinese (Traditional)</option>
-	 </xsl:otherwise>
-	</xsl:choose>
+			
+			<xsl:choose>
+			 <xsl:when test="PARAM[(@name='lr') and (@value='lang_zh-TW')]">
+			 <option value="lang_zh-TW"
+			 selected="selected">Chinese (Traditional)</option>
+			 </xsl:when>
+			 <xsl:otherwise>
+			 <option value="lang_zh-TW">Chinese (Traditional)</option>
+			 </xsl:otherwise>
+			</xsl:choose>
 
-	
-	<xsl:choose>
-	 <xsl:when test="PARAM[(@name='lr') and (@value='lang_cs')]">
-	 <option value="lang_cs"
-	 selected="selected">Czech</option>
-	 </xsl:when>
-	 <xsl:otherwise>
-	 <option value="lang_cs">Czech</option>
-	 </xsl:otherwise>
-	</xsl:choose>
+			
+			<xsl:choose>
+			 <xsl:when test="PARAM[(@name='lr') and (@value='lang_cs')]">
+			 <option value="lang_cs"
+			 selected="selected">Czech</option>
+			 </xsl:when>
+			 <xsl:otherwise>
+			 <option value="lang_cs">Czech</option>
+			 </xsl:otherwise>
+			</xsl:choose>
 
-	
-	<xsl:choose>
-	 <xsl:when test="PARAM[(@name='lr') and (@value='lang_da')]">
-	 <option value="lang_da"
-	 selected="selected">Danish</option>
-	 </xsl:when>
-	 <xsl:otherwise>
-	 <option value="lang_da">Danish</option>
-	 </xsl:otherwise>
-	</xsl:choose>
+			
+			<xsl:choose>
+			 <xsl:when test="PARAM[(@name='lr') and (@value='lang_da')]">
+			 <option value="lang_da"
+			 selected="selected">Danish</option>
+			 </xsl:when>
+			 <xsl:otherwise>
+			 <option value="lang_da">Danish</option>
+			 </xsl:otherwise>
+			</xsl:choose>
 
-	
-	<xsl:choose>
-	 <xsl:when test="PARAM[(@name='lr') and (@value='lang_nl')]">
-	 <option value="lang_nl"
-	 selected="selected">Dutch</option>
-	 </xsl:when>
-	 <xsl:otherwise>
-	 <option value="lang_nl">Dutch</option>
-	 </xsl:otherwise>
-	</xsl:choose>
+			
+			<xsl:choose>
+			 <xsl:when test="PARAM[(@name='lr') and (@value='lang_nl')]">
+			 <option value="lang_nl"
+			 selected="selected">Dutch</option>
+			 </xsl:when>
+			 <xsl:otherwise>
+			 <option value="lang_nl">Dutch</option>
+			 </xsl:otherwise>
+			</xsl:choose>
 
-	
-	<xsl:choose>
-	 <xsl:when test="PARAM[(@name='lr') and (@value='lang_en')]">
-	 <option value="lang_en"
-	 selected="selected">English</option>
-	 </xsl:when>
-	 <xsl:otherwise>
-	 <option value="lang_en">English</option>
-	 </xsl:otherwise>
-	</xsl:choose>
+			
+			<xsl:choose>
+			 <xsl:when test="PARAM[(@name='lr') and (@value='lang_en')]">
+			 <option value="lang_en"
+			 selected="selected">English</option>
+			 </xsl:when>
+			 <xsl:otherwise>
+			 <option value="lang_en">English</option>
+			 </xsl:otherwise>
+			</xsl:choose>
 
-	
-	<xsl:choose>
-	 <xsl:when test="PARAM[(@name='lr') and (@value='lang_et')]">
-	 <option value="lang_et"
-	 selected="selected">Estonian</option>
-	 </xsl:when>
-	 <xsl:otherwise>
-	 <option value="lang_et">Estonian</option>
-	 </xsl:otherwise>
-	</xsl:choose>
+			
+			<xsl:choose>
+			 <xsl:when test="PARAM[(@name='lr') and (@value='lang_et')]">
+			 <option value="lang_et"
+			 selected="selected">Estonian</option>
+			 </xsl:when>
+			 <xsl:otherwise>
+			 <option value="lang_et">Estonian</option>
+			 </xsl:otherwise>
+			</xsl:choose>
 
-	
-	<xsl:choose>
-	 <xsl:when test="PARAM[(@name='lr') and (@value='lang_fi')]">
-	 <option value="lang_fi"
-	 selected="selected">Finnish</option>
-	 </xsl:when>
-	 <xsl:otherwise>
-	 <option value="lang_fi">Finnish</option>
-	 </xsl:otherwise>
-	</xsl:choose>
+			
+			<xsl:choose>
+			 <xsl:when test="PARAM[(@name='lr') and (@value='lang_fi')]">
+			 <option value="lang_fi"
+			 selected="selected">Finnish</option>
+			 </xsl:when>
+			 <xsl:otherwise>
+			 <option value="lang_fi">Finnish</option>
+			 </xsl:otherwise>
+			</xsl:choose>
 
-	
-	<xsl:choose>
-	 <xsl:when test="PARAM[(@name='lr') and (@value='lang_fr')]">
-	 <option value="lang_fr"
-	 selected="selected">French</option>
-	 </xsl:when>
-	 <xsl:otherwise>
-	 <option value="lang_fr">French</option>
-	 </xsl:otherwise>
-	</xsl:choose>
+			
+			<xsl:choose>
+			 <xsl:when test="PARAM[(@name='lr') and (@value='lang_fr')]">
+			 <option value="lang_fr"
+			 selected="selected">French</option>
+			 </xsl:when>
+			 <xsl:otherwise>
+			 <option value="lang_fr">French</option>
+			 </xsl:otherwise>
+			</xsl:choose>
 
-	
-	<xsl:choose>
-	 <xsl:when test="PARAM[(@name='lr') and (@value='lang_de')]">
-	 <option value="lang_de"
-	 selected="selected">German</option>
-	 </xsl:when>
-	 <xsl:otherwise>
-	 <option value="lang_de">German</option>
-	 </xsl:otherwise>
-	</xsl:choose>
+			
+			<xsl:choose>
+			 <xsl:when test="PARAM[(@name='lr') and (@value='lang_de')]">
+			 <option value="lang_de"
+			 selected="selected">German</option>
+			 </xsl:when>
+			 <xsl:otherwise>
+			 <option value="lang_de">German</option>
+			 </xsl:otherwise>
+			</xsl:choose>
 
-	
-	<xsl:choose>
-	 <xsl:when test="PARAM[(@name='lr') and (@value='lang_el')]">
-	 <option value="lang_el"
-	 selected="selected">Greek</option>
-	 </xsl:when>
-	 <xsl:otherwise>
-	 <option value="lang_el">Greek</option>
-	 </xsl:otherwise>
-	</xsl:choose>
+			
+			<xsl:choose>
+			 <xsl:when test="PARAM[(@name='lr') and (@value='lang_el')]">
+			 <option value="lang_el"
+			 selected="selected">Greek</option>
+			 </xsl:when>
+			 <xsl:otherwise>
+			 <option value="lang_el">Greek</option>
+			 </xsl:otherwise>
+			</xsl:choose>
 
-	
-	<xsl:choose>
-	 <xsl:when test="PARAM[(@name='lr') and (@value='lang_iw')]">
-	 <option value="lang_iw"
-	 selected="selected">Hebrew</option>
-	 </xsl:when>
-	 <xsl:otherwise>
-	 <option value="lang_iw">Hebrew</option>
-	 </xsl:otherwise>
-	</xsl:choose>
+			
+			<xsl:choose>
+			 <xsl:when test="PARAM[(@name='lr') and (@value='lang_iw')]">
+			 <option value="lang_iw"
+			 selected="selected">Hebrew</option>
+			 </xsl:when>
+			 <xsl:otherwise>
+			 <option value="lang_iw">Hebrew</option>
+			 </xsl:otherwise>
+			</xsl:choose>
 
-	
-	<xsl:choose>
-	 <xsl:when test="PARAM[(@name='lr') and (@value='lang_hu')]">
-	 <option value="lang_hu"
-	 selected="selected">Hungarian</option>
-	 </xsl:when>
-	 <xsl:otherwise>
-	 <option value="lang_hu">Hungarian</option>
-	 </xsl:otherwise>
-	</xsl:choose>
+			
+			<xsl:choose>
+			 <xsl:when test="PARAM[(@name='lr') and (@value='lang_hu')]">
+			 <option value="lang_hu"
+			 selected="selected">Hungarian</option>
+			 </xsl:when>
+			 <xsl:otherwise>
+			 <option value="lang_hu">Hungarian</option>
+			 </xsl:otherwise>
+			</xsl:choose>
 
-	
-	<xsl:choose>
-	 <xsl:when test="PARAM[(@name='lr') and (@value='lang_is')]">
-	 <option value="lang_is"
-	 selected="selected">Icelandic</option>
-	 </xsl:when>
-	 <xsl:otherwise>
-	 <option value="lang_is">Icelandic</option>
-	 </xsl:otherwise>
-	</xsl:choose>
+			
+			<xsl:choose>
+			 <xsl:when test="PARAM[(@name='lr') and (@value='lang_is')]">
+			 <option value="lang_is"
+			 selected="selected">Icelandic</option>
+			 </xsl:when>
+			 <xsl:otherwise>
+			 <option value="lang_is">Icelandic</option>
+			 </xsl:otherwise>
+			</xsl:choose>
 
-	
-	<xsl:choose>
-	 <xsl:when test="PARAM[(@name='lr') and (@value='lang_it')]">
-	 <option value="lang_it"
-	 selected="selected">Italian</option>
-	 </xsl:when>
-	 <xsl:otherwise>
-	 <option value="lang_it">Italian</option>
-	 </xsl:otherwise>
-	</xsl:choose>
+			
+			<xsl:choose>
+			 <xsl:when test="PARAM[(@name='lr') and (@value='lang_it')]">
+			 <option value="lang_it"
+			 selected="selected">Italian</option>
+			 </xsl:when>
+			 <xsl:otherwise>
+			 <option value="lang_it">Italian</option>
+			 </xsl:otherwise>
+			</xsl:choose>
 
-	
-	<xsl:choose>
-	 <xsl:when test="PARAM[(@name='lr') and (@value='lang_ja')]">
-	 <option value="lang_ja"
-	 selected="selected">Japanese</option>
-	 </xsl:when>
-	 <xsl:otherwise>
-	 <option value="lang_ja">Japanese</option>
-	 </xsl:otherwise>
-	</xsl:choose>
+			
+			<xsl:choose>
+			 <xsl:when test="PARAM[(@name='lr') and (@value='lang_ja')]">
+			 <option value="lang_ja"
+			 selected="selected">Japanese</option>
+			 </xsl:when>
+			 <xsl:otherwise>
+			 <option value="lang_ja">Japanese</option>
+			 </xsl:otherwise>
+			</xsl:choose>
 
-	
-	<xsl:choose>
-	 <xsl:when test="PARAM[(@name='lr') and (@value='lang_ko')]">
-	 <option value="lang_ko"
-	 selected="selected">Korean</option>
-	 </xsl:when>
-	 <xsl:otherwise>
-	 <option value="lang_ko">Korean</option>
-	 </xsl:otherwise>
-	</xsl:choose>
+			
+			<xsl:choose>
+			 <xsl:when test="PARAM[(@name='lr') and (@value='lang_ko')]">
+			 <option value="lang_ko"
+			 selected="selected">Korean</option>
+			 </xsl:when>
+			 <xsl:otherwise>
+			 <option value="lang_ko">Korean</option>
+			 </xsl:otherwise>
+			</xsl:choose>
 
-	
-	<xsl:choose>
-	 <xsl:when test="PARAM[(@name='lr') and (@value='lang_lv')]">
-	 <option value="lang_lv"
-	 selected="selected">Latvian</option>
-	 </xsl:when>
-	 <xsl:otherwise>
-	 <option value="lang_lv">Latvian</option>
-	 </xsl:otherwise>
-	</xsl:choose>
+			
+			<xsl:choose>
+			 <xsl:when test="PARAM[(@name='lr') and (@value='lang_lv')]">
+			 <option value="lang_lv"
+			 selected="selected">Latvian</option>
+			 </xsl:when>
+			 <xsl:otherwise>
+			 <option value="lang_lv">Latvian</option>
+			 </xsl:otherwise>
+			</xsl:choose>
 
-	
-	<xsl:choose>
-	 <xsl:when test="PARAM[(@name='lr') and (@value='lang_lt')]">
-	 <option value="lang_lt"
-	 selected="selected">Lithuanian</option>
-	 </xsl:when>
-	 <xsl:otherwise>
-	 <option value="lang_lt">Lithuanian</option>
-	 </xsl:otherwise>
-	</xsl:choose>
+			
+			<xsl:choose>
+			 <xsl:when test="PARAM[(@name='lr') and (@value='lang_lt')]">
+			 <option value="lang_lt"
+			 selected="selected">Lithuanian</option>
+			 </xsl:when>
+			 <xsl:otherwise>
+			 <option value="lang_lt">Lithuanian</option>
+			 </xsl:otherwise>
+			</xsl:choose>
 
-	
-	<xsl:choose>
-	 <xsl:when test="PARAM[(@name='lr') and (@value='lang_no')]">
-	 <option value="lang_no"
-	 selected="selected">Norwegian</option>
-	 </xsl:when>
-	 <xsl:otherwise>
-	 <option value="lang_no">Norwegian</option>
-	 </xsl:otherwise>
-	</xsl:choose>
+			
+			<xsl:choose>
+			 <xsl:when test="PARAM[(@name='lr') and (@value='lang_no')]">
+			 <option value="lang_no"
+			 selected="selected">Norwegian</option>
+			 </xsl:when>
+			 <xsl:otherwise>
+			 <option value="lang_no">Norwegian</option>
+			 </xsl:otherwise>
+			</xsl:choose>
 
-	
-	<xsl:choose>
-	 <xsl:when test="PARAM[(@name='lr') and (@value='lang_pl')]">
-	 <option value="lang_pl"
-	 selected="selected">Polish</option>
-	 </xsl:when>
-	 <xsl:otherwise>
-	 <option value="lang_pl">Polish</option>
-	 </xsl:otherwise>
-	</xsl:choose>
+			
+			<xsl:choose>
+			 <xsl:when test="PARAM[(@name='lr') and (@value='lang_pl')]">
+			 <option value="lang_pl"
+			 selected="selected">Polish</option>
+			 </xsl:when>
+			 <xsl:otherwise>
+			 <option value="lang_pl">Polish</option>
+			 </xsl:otherwise>
+			</xsl:choose>
 
-	
-	<xsl:choose>
-	 <xsl:when test="PARAM[(@name='lr') and (@value='lang_pt')]">
-	 <option value="lang_pt"
-	 selected="selected">Portuguese</option>
-	 </xsl:when>
-	 <xsl:otherwise>
-	 <option value="lang_pt">Portuguese</option>
-	 </xsl:otherwise>
-	</xsl:choose>
+			
+			<xsl:choose>
+			 <xsl:when test="PARAM[(@name='lr') and (@value='lang_pt')]">
+			 <option value="lang_pt"
+			 selected="selected">Portuguese</option>
+			 </xsl:when>
+			 <xsl:otherwise>
+			 <option value="lang_pt">Portuguese</option>
+			 </xsl:otherwise>
+			</xsl:choose>
 
-	
-	<xsl:choose>
-	 <xsl:when test="PARAM[(@name='lr') and (@value='lang_ro')]">
-	 <option value="lang_ro"
-	 selected="selected">Romanian</option>
-	 </xsl:when>
-	 <xsl:otherwise>
-	 <option value="lang_ro">Romanian</option>
-	 </xsl:otherwise>
-	</xsl:choose>
+			
+			<xsl:choose>
+			 <xsl:when test="PARAM[(@name='lr') and (@value='lang_ro')]">
+			 <option value="lang_ro"
+			 selected="selected">Romanian</option>
+			 </xsl:when>
+			 <xsl:otherwise>
+			 <option value="lang_ro">Romanian</option>
+			 </xsl:otherwise>
+			</xsl:choose>
 
-	
-	<xsl:choose>
-	 <xsl:when test="PARAM[(@name='lr') and (@value='lang_ru')]">
-	 <option value="lang_ru"
-	 selected="selected">Russian</option>
-	 </xsl:when>
-	 <xsl:otherwise>
-	 <option value="lang_ru">Russian</option>
-	 </xsl:otherwise>
-	</xsl:choose>
+			
+			<xsl:choose>
+			 <xsl:when test="PARAM[(@name='lr') and (@value='lang_ru')]">
+			 <option value="lang_ru"
+			 selected="selected">Russian</option>
+			 </xsl:when>
+			 <xsl:otherwise>
+			 <option value="lang_ru">Russian</option>
+			 </xsl:otherwise>
+			</xsl:choose>
 
-	
-	<xsl:choose>
-	 <xsl:when test="PARAM[(@name='lr') and (@value='lang_es')]">
-	 <option value="lang_es"
-	 selected="selected">Spanish</option>
-	 </xsl:when>
-	 <xsl:otherwise>
-	 <option value="lang_es">Spanish</option>
-	 </xsl:otherwise>
-	</xsl:choose>
+			
+			<xsl:choose>
+			 <xsl:when test="PARAM[(@name='lr') and (@value='lang_es')]">
+			 <option value="lang_es"
+			 selected="selected">Spanish</option>
+			 </xsl:when>
+			 <xsl:otherwise>
+			 <option value="lang_es">Spanish</option>
+			 </xsl:otherwise>
+			</xsl:choose>
 
-	
-	<xsl:choose>
-	 <xsl:when test="PARAM[(@name='lr') and (@value='lang_sv')]">
-	 <option value="lang_sv"
-	 selected="selected">Swedish</option>
-	 </xsl:when>
-	 <xsl:otherwise>
-	 <option value="lang_sv">Swedish</option>
-	 </xsl:otherwise>
-	</xsl:choose>
+			
+			<xsl:choose>
+			 <xsl:when test="PARAM[(@name='lr') and (@value='lang_sv')]">
+			 <option value="lang_sv"
+			 selected="selected">Swedish</option>
+			 </xsl:when>
+			 <xsl:otherwise>
+			 <option value="lang_sv">Swedish</option>
+			 </xsl:otherwise>
+			</xsl:choose>
 
-	
-	<xsl:choose>
-	 <xsl:when test="PARAM[(@name='lr') and (@value='lang_tr')]">
-	 <option value="lang_tr"
-	 selected="selected">Turkish</option>
-	 </xsl:when>
-	 <xsl:otherwise>
-	 <option value="lang_tr">Turkish</option>
-	 </xsl:otherwise>
-	</xsl:choose>
+			
+			<xsl:choose>
+			 <xsl:when test="PARAM[(@name='lr') and (@value='lang_tr')]">
+			 <option value="lang_tr"
+			 selected="selected">Turkish</option>
+			 </xsl:when>
+			 <xsl:otherwise>
+			 <option value="lang_tr">Turkish</option>
+			 </xsl:otherwise>
+			</xsl:choose>
 
 
                       <xsl:text disable-output-escaping="yes">&lt;/select&gt;</xsl:text>
@@ -6374,13 +6400,13 @@ SHAHID MIRZA END OF HIDING DEFAULT SORT BY -->
         <!-- *** Meta tags *** -->
         
         <xsl:if test="$show_meta_tags != '0' and $only_apps != '1'">
-    	
-    	<table class="meta_tags_table" style="margin-top: 10px;">
-	    <tr>
+    		
+    		<table class="meta_tags_table" style="margin-top: 10px;">
+		    <tr>
             
             <td>المصدر: </td>
             <td><span class="meta_title"><xsl:value-of select="MT[@N='source']/@V"/></span></td>
-          	
+          		
           	</tr>
 </table>
 
@@ -6389,7 +6415,7 @@ SHAHID MIRZA END OF HIDING DEFAULT SORT BY -->
             
             <td style="width:45px;">الكاتب: </td>
             <td style="width:119px;"><span class="meta_title"><xsl:value-of select="MT[@N='author']/@V"/></span></td>
-          	
+          		
 <td class="meta_padding_right;" style="width:95px;">تاريخ النشر(م): </td>
             <td><span class="meta_title"><xsl:value-of select="MT[@N='dateGre']/@V"/></span></td> 
                     	
@@ -6410,28 +6436,28 @@ SHAHID MIRZA END OF HIDING DEFAULT SORT BY -->
             <td class="social_inline">
             
             <xsl:if test="$show_social_media_links != '0'"> 
-	<table id="social-media" cellpadding="0" cellspacing="0" style="margin-right: auto;">
-	<tr>
-	<td>
-	<a href="javascript:window.open(%22http://www.facebook.com/sharer.php?u={$full_url}&amp;t={T}%22,'_blank', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600')"><img src="http://daharchives.alhayat.com/images/f_logo.png" alt="Share on Facebook" height="25px" width="25px"/></a>
-	</td>
-	<td class="twitter_sl">
-	<a title="{$full_url}" name="{T}"><img src="http://daharchives.alhayat.com/images/t_logo.png" alt="Share on Twitter" height="25px" width="25px"/></a>
-	</td>
-	<td class="google_sl">
-	<a title="{$full_url}" name="{T}">
+				<table id="social-media" cellpadding="0" cellspacing="0" style="margin-right: auto;">
+					<tr>
+						<td>
+							<a href="javascript:window.open(%22http://www.facebook.com/sharer.php?u={$full_url}&amp;t={T}%22,'_blank', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600')"><img src="http://daharchives.alhayat.com/images/f_logo.png" alt="Share on Facebook" height="25px" width="25px"/></a>
+						</td>
+						<td class="twitter_sl">
+							<a title="{$full_url}" name="{T}"><img src="http://daharchives.alhayat.com/images/t_logo.png" alt="Share on Twitter" height="25px" width="25px"/></a>
+						</td>
+						<td class="google_sl">
+							<a title="{$full_url}" name="{T}">
 <img src="http://daharchives.alhayat.com/images/g_logo.png" alt="Share on Google Plus" height="25px" width="25px"/></a>
-	</td>
-	</tr>
-	</table>
-	</xsl:if>
+						</td>
+					</tr>
+				</table>
+			</xsl:if>
 
             </td>        
           	
           	<xsl:text disable-output-escaping="yes">&lt;/tr&gt;</xsl:text>
             </tr>
-    	</table>
-	      
+    		</table>
+		      
 	<!-- <xsl:apply-templates select="MT"/> -->
         </xsl:if>
 
@@ -7434,8 +7460,8 @@ height:30px;
 }
 
 #date_box{
-	    
-	}
+		    
+		}
 
 #ByKoein {
      background:none;
