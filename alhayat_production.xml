@@ -1252,8 +1252,8 @@ setInterval(function () {
 	
 	  function removeDateRangeFromASQ(){
 	      var as_q = $('.as_q');
-	       if(as_q.val().indexOf("inmeta:dateGre:daterange")!=-1){
-		  as_q.val(trim(as_q.val().substring(0,as_q.val().indexOf("inmeta:dateGre:daterange")-1)));
+	       if(as_q.val().indexOf("daterange")!=-1){
+		  as_q.val(trim(as_q.val().substring(0,as_q.val().indexOf("daterange")-1)));
 	       }
 	    }
 	    
@@ -1265,7 +1265,7 @@ setInterval(function () {
 	    }
 	    
 	    function getDateRange(period){
-	      var returnStr = " inmeta:dateGre:daterange:";
+	      var returnStr = " daterange:";
 	      
 	      var d = new Date();
 	      
@@ -4883,7 +4883,7 @@ for (var j = 1; j &lt; p.length; j++) { url += "&amp;" + p[j]; }}
 
   <xsl:variable name="sort_by_date_url">
     <xsl:value-of select="$sort_by_url"
-      />&amp;sort=date%3AD%3AS%3Ad1</xsl:variable>
+      />&amp;sort=date%3AD%3AR%3Ad1</xsl:variable>
 
   <table><tr valign='top'><td>
   <span class="s">
@@ -5417,14 +5417,14 @@ SHAHID MIRZA END OF HIDING DEFAULT SORT BY -->
         <xsl:choose>
           <xsl:when test="../@IR = '1'"><xsl:variable
             name="stripped_l" select="normalize-space(@L)"/><xsl:variable
-            name="stripped_h" select="normalize-space(@H)"/>inmeta:<xsl:value-of
+            name="stripped_h" select="normalize-space(@H)"/>daterange:<xsl:value-of
             select="$pmt_name"/>:<xsl:choose><xsl:when test="../@T = 3"><xsl:if
             test="$stripped_l != ''">$<xsl:value-of select="$stripped_l"/></xsl:if>..<xsl:if
             test="$stripped_h != ''">$<xsl:value-of
             select="$stripped_h"/></xsl:if></xsl:when><xsl:otherwise><xsl:value-of
             select="$stripped_l"/>..<xsl:value-of select="$stripped_h"/></xsl:otherwise></xsl:choose>
           </xsl:when>
-          <xsl:otherwise>inmeta:<xsl:value-of select="$pmt_name"/>%3D<xsl:call-template
+          <xsl:otherwise>daterange:<xsl:value-of select="$pmt_name"/>%3D<xsl:call-template
               name="term-escape"><xsl:with-param name="val" select="@V"/></xsl:call-template>
           </xsl:otherwise>
         </xsl:choose>
