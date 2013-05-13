@@ -5417,14 +5417,14 @@ SHAHID MIRZA END OF HIDING DEFAULT SORT BY -->
         <xsl:choose>
           <xsl:when test="../@IR = '1'"><xsl:variable
             name="stripped_l" select="normalize-space(@L)"/><xsl:variable
-            name="stripped_h" select="normalize-space(@H)"/>daterange:<xsl:value-of
+            name="stripped_h" select="normalize-space(@H)"/>inmeta:<xsl:value-of
             select="$pmt_name"/>:<xsl:choose><xsl:when test="../@T = 3"><xsl:if
             test="$stripped_l != ''">$<xsl:value-of select="$stripped_l"/></xsl:if>..<xsl:if
             test="$stripped_h != ''">$<xsl:value-of
             select="$stripped_h"/></xsl:if></xsl:when><xsl:otherwise><xsl:value-of
             select="$stripped_l"/>..<xsl:value-of select="$stripped_h"/></xsl:otherwise></xsl:choose>
           </xsl:when>
-          <xsl:otherwise>daterange:<xsl:value-of select="$pmt_name"/>%3D<xsl:call-template
+          <xsl:otherwise>inmeta:<xsl:value-of select="$pmt_name"/>%3D<xsl:call-template
               name="term-escape"><xsl:with-param name="val" select="@V"/></xsl:call-template>
           </xsl:otherwise>
         </xsl:choose>
