@@ -7466,6 +7466,7 @@ height:30px;
 
 #ByKoein {
      background:none;
+     display:none;
 }
 
 table.meta_tags_table {
