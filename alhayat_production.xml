@@ -787,20 +787,24 @@
      ********************************************************************** -->
 <xsl:template name="my_page_header">
   <!-- *** replace the following with your own xhtml code or replace the text
-   between the xsl:text tags with html escaped html code *** -->
-  <xsl:text disable-output-escaping="yes"> &lt;!-- Please enter html code below. --&gt;
+   between the xsl:text tags with html escaped html code *** --> 
+ <xsl:text disable-output-escaping="yes"> &lt;!-- Please enter html code below. --&gt;
 
 &lt;!-- Latest analytics snippet --&gt;
 
 &lt;script&gt;
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-40723350-1', 'alhayat.com');
-  ga('send', 'pageview');
-
+ 
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-8777468-9']);
+  _gaq.push(['_setDomainName', 'alhayat.com']);
+  _gaq.push(['_trackPageview']);
+ 
+  (function() {
+	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+ 
 &lt;/script&gt;
  
  
